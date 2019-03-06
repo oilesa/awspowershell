@@ -1,0 +1,1 @@
+New-EC2Instance -ImageId ((Get-SSMParameterValue -Name /aws/service/ami-windows-latest/Windows_Server-2016-English-Full-Base).Parameters[0].Value) -InstanceType t2.small -AssociatePublicIp $true -SubnetId $SubnetID
