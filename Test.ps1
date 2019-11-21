@@ -1,4 +1,4 @@
-#Retrieve the AWS instance ID, keep trying until the metadata is available
+`#Retrieve the AWS instance ID, keep trying until the metadata is available
 $instanceID = "null"
 while ($instanceID -NotLike "i-*") {
  Start-Sleep -s 3
