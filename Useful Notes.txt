@@ -1,0 +1,5 @@
+Get list of AMIs with command:
+
+Get-EC2Image -Owner amazon | where Name -match "r-2019-English" | select imageid, name | ft
+aws ec2 describe-images  --owner amazon  --filter Name=name,Values=Windows_Server-2019* --query "Images[*].Name" --output table
+
