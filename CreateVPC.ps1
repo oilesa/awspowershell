@@ -1,7 +1,7 @@
 $Region = 'ap-southeast-1'
 $VPCCIDR = '10.0.0.0/16'
 
-# Private Subnet is Odd and Public subnet is Even
+# Private Subnet is Odd and Public Subnet is Even
 
 $SubnetCIDR1 = '10.0.11.0/24'
 $SubnetCIDR2 = '10.0.12.0/24'
